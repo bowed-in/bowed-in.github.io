@@ -15,20 +15,20 @@
 
 ##EDIT
 
-Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
+Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. Our goal is to work closely as a team and develop a functional and aesthetically pleasing website. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
 
-Software engineering
-Game/Web Design
-Data Science
-Computer Graphics
-System Analytics
-Artificial Intelligence
-Specific programming languages: Java, JavaScript, C/C++, Python, R
+* Software engineering
+* Game/Web Design
+* Data Science
+* Computer Graphics
+* System Analytics
+* Artificial Intelligence
+* Specific programming languages: Java, JavaScript, C/C++, Python, R
 
 and more! Conversely, employers will be able to recruit students from this app as well based on their listed areas of interests and experience. They may be able to connect with each other by sending an add request. 
 
-NOTE: The following does not directly pertain to our project and is kept for reference.
-(BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+
+BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -45,7 +45,7 @@ It also provides code that implements a variety of useful design concepts, inclu
 * Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
 * Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
 * Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).)
+* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
 
 ## Deployment
 
