@@ -69,23 +69,19 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](images/BowedInLandingPage.JPG)
 
-### Index pages (Projects, Profiles, Interests)
+### Home Page
 
 ##EDIT
 
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
+BowedIn is has two different home pages depending on the role: Student and Company.
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
+After the account is set up and the UHM student user logs in, you are taken to the student home page.
 
-![](images/profiles-page.png)
+![](images/bowed-in-user-home-page.png)
 
-The Projects page shows all of the currently defined Projects and their associated Profiles and Interests:
+After the account is set up and the company user logs in, you are taken to the company home page.
 
-![](images/projects-page.png)
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-![](images/interests-page.png)
+![](images/bowed-in-company-home-page.png)
 
 
 ### Sign in and sign up
@@ -100,7 +96,7 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ![](images/signup-page.png)
 
-### Home page
+### Profile page
 
 ##EDIT
 
