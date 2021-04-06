@@ -67,7 +67,7 @@ This section provides a walkthrough of the Bowfolios user interface and its capa
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/BowedInLandingPage.jpg)
+![](images/BowedInLandingPage.JPG)
 
 ### Index pages (Projects, Profiles, Interests)
 
