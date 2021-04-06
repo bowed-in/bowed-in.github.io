@@ -13,6 +13,8 @@
 
 ## Overview
 
+##EDIT
+
 BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
@@ -34,19 +36,27 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## Deployment
 
+##EDIT
+
 A live deployment of BowFolios is available at [https://bowfolios.org](https://bowfolios.org).
 
 ## User Guide
 
+##EDIT
+
 This section provides a walkthrough of the Bowfolios user interface and its capabilities.
 
 ### Landing Page
+
+##EDIT
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
 ![](images/landing-page.png)
 
 ### Index pages (Projects, Profiles, Interests)
+
+##EDIT
 
 Bowfolios provides three public pages that present the contents of the database organized in various ways.
 
@@ -65,6 +75,8 @@ Finally, the Interests page shows all the currently defined Interests, and their
 
 ### Sign in and sign up
 
+##EDIT
+
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
 ![](images/signin-page.png)
@@ -75,11 +87,15 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ### Home page
 
+##EDIT
+
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 
 ![](images/home-page.png)
 
 ### Add Project page
+
+##EDIT
 
 Once you are logged in, you can define new projects with the Add Project page:
 
@@ -88,19 +104,27 @@ Once you are logged in, you can define new projects with the Add Project page:
 
 ### Filter page
 
+##EDIT
+
 The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
 
 ![](images/filter-page.png)
 
 ## Community Feedback
 
+##EDIT
+
 We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 
+##EDIT
+
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
+
+##EDIT
 
 First, [install Meteor](https://www.meteor.com/install).
 
@@ -122,9 +146,13 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
+##EDIT
+
 Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
 
 ### Data model
+
+##EDIT
 
 As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
 
@@ -141,6 +169,8 @@ The fields in boldface (Email for Profiles, and Name for Projects and Interests)
 
 ## Initialization
 
+##EDIT
+
 The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
 
 This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
@@ -151,6 +181,8 @@ The settings.development.json file contains a field called "loadAssetsFile". It 
 ### Quality Assurance
 
 #### ESLint
+
+##EDIT
 
 BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
@@ -174,6 +206,8 @@ ESLint should run without generating any errors.
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 #### End to End Testing
+
+##EDIT
 
 BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
@@ -253,6 +287,8 @@ The only impact of quarantine mode should be that the first test is marked as "u
 
 ## From mockup to production
 
+##EDIT
+
 Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
 
 * Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
@@ -263,6 +299,8 @@ Bowfolios is meant to illustrate the use of Meteor for developing an initial pro
 
 ## Continuous Integration
 
+##EDIT
+
 ![ci-badge](https://github.com/bowfolios/bowfolios/workflows/ci-bowfolios/badge.svg)
 
 BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/bowfolios/bowfolios/actions](https://github.com/bowfolios/bowfolios/actions).
@@ -271,6 +309,8 @@ The workflow definition file is quite simple and is located at
 [.github/workflows/ci.yml](https://github.com/bowfolios/bowfolios/blob/master/.github/workflows/ci.yml).
 
 ## Development History
+
+##EDIT
 
 The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
@@ -286,6 +326,8 @@ The following sections document the development history of BowFolios.
 
 ### Milestone 1: Mockup development
 
+##EDIT
+
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
 Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
@@ -294,6 +336,8 @@ Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.
 
 ### Milestone 2: Data model development
 
+##EDIT
+
 The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
 
 Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
@@ -301,6 +345,8 @@ Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.
 ![](images/project-board-2.png)
 
 ## Milestone 3: Final touches
+
+##EDIT
 
 The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
@@ -311,6 +357,8 @@ Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.
 As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
 
 ## Walkthrough videos
+
+##EDIT
 
 BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
 
@@ -323,6 +371,8 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
 * [BowFolios Part 7: End-to-End testing in BowFolios (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
 
 ## Example enhancements
+
+##EDIT
 
 There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
 
@@ -337,4 +387,4 @@ There are a number of simple enhancements you can make to the system to become b
 
 ## Team
 
-BowFolios is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org).
+BowedIn is designed, implemented, and maintained by [Justin Honda](https://jhonda7.github.io/), [Justin Loi](https://justin-loi.github.io/), [Sara Cheng](https://sara-2c.github.io/), [Jackie Wu](https://jwu0.github.io/).
