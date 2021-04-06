@@ -117,13 +117,13 @@ Once you are logged in, you can define new projects with the Add Project page:
 ![](images/add-project-page.png)
 
 
-### Filter page
+### Filter (Search) page
 
 ##EDIT
 
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
+The Filter (Search) page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified fields, such as Location(s), Skill(s), Interest(s), etc.
 
-![](images/filter-page.png)
+![](images/searchpage.jpg)
 
 ## Community Feedback
 
