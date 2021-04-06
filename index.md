@@ -15,7 +15,7 @@
 
 ##EDIT
 
-Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. Our goal is to work closely as a team and develop a functional and aesthetically pleasing website. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
+Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
 
 * Software engineering
 * Game/Web Design
@@ -26,6 +26,8 @@ Bow(ed)In is an application that helps connect UH computer science students to d
 * Specific programming languages: Java, JavaScript, C/C++, Python, R
 
 and more! Conversely, employers will be able to recruit students from this app as well based on their listed areas of interests and experience. They may be able to connect with each other by sending an add request. 
+
+Our goal is to work closely as a team and develop a functional and aesthetically pleasing website. 
 
 
 BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
