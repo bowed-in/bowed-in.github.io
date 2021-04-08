@@ -28,6 +28,7 @@ Bow(ed)In is an application that helps connect UH computer science students to d
 and more! Conversely, employers will be able to recruit students from this app as well based on their listed areas of interests and experience. They may be able to connect with each other by sending an add request. 
 
 Our goal is to work closely as a team and develop a functional and aesthetically pleasing website. 
+
 <!-- 
 (WILL DELETE LATER)
 BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
@@ -48,12 +49,14 @@ It also provides code that implements a variety of useful design concepts, inclu
 * Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
 * Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
 * Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
--->
+
 ## Deployment
 
 ##EDIT
 
 A live deployment of BowFolios is available at [https://bowfolios.org](https://bowfolios.org).
+
+-->
 
 ## User Guide
 
@@ -154,6 +157,8 @@ $ meteor npm run start
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+<!--
 
 ### Application Design
 
@@ -334,6 +339,8 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
 The following sections document the development history of BowFolios.
+
+-->
 
 ### Milestone 1: Mockup development
 
