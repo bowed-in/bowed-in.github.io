@@ -110,16 +110,6 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ![](images/IMG_0326.jpg)
 
-### Add Project page
-
-<!--##EDIT-->
-
-Once you are logged in, you can define new projects with the Add Project page:
-
-
-<!--Place image here-->
-
-
 ### Filter (Search) page
 
 <!--##EDIT-->
