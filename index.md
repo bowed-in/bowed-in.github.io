@@ -1,9 +1,11 @@
 ## Table of contents
 
 * [Overview](#overview)
-<!-- * [Deployment](#deployment) -->
 * [User Guide](#user-guide)
+* [Team](#team)
+
 <!--
+* [Deployment](#deployment) 
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
@@ -11,11 +13,10 @@
 * [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements) 
 -->
-* [Team](#team)
 
 ## Overview
 
-##EDIT
+<!-- ##EDIT -->
 
 Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
 
@@ -54,7 +55,7 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## Deployment
 
-##EDIT
+<!--##EDIT-->
 
 A live deployment of BowFolios is available at [https://bowfolios.org](https://bowfolios.org).
 
@@ -62,13 +63,13 @@ A live deployment of BowFolios is available at [https://bowfolios.org](https://b
 
 ## User Guide
 
-##EDIT
+<!--##EDIT-->
 
 This section provides a walkthrough of the Bowfolios user interface and its capabilities.
 
 ### Landing Page
 
-##EDIT
+<!--##EDIT-->
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
@@ -76,7 +77,7 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ### Home Page
 
-##EDIT
+<!--##EDIT-->
 
 BowedIn is has two different home pages depending on the role: Student and Company.
 
@@ -91,7 +92,7 @@ After the account is set up and the company user logs in, you are taken to the c
 
 ### Sign in and sign up
 
-##EDIT
+<!--##EDIT-->
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
@@ -103,7 +104,7 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ### Profile page
 
-##EDIT
+<!--##EDIT-->
 
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 
@@ -111,7 +112,7 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ### Add Project page
 
-##EDIT
+<!--##EDIT-->
 
 Once you are logged in, you can define new projects with the Add Project page:
 
@@ -120,7 +121,7 @@ Once you are logged in, you can define new projects with the Add Project page:
 
 ### Filter (Search) page
 
-##EDIT
+<!--##EDIT-->
 
 The Filter (Search) page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified fields, such as Location(s), Skill(s), Interest(s), etc.
 
@@ -130,19 +131,19 @@ The Filter (Search) page provides the ability to query the database and display 
 
 ## Community Feedback
 
-##EDIT
+<!--##EDIT-->
 
 We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 
-##EDIT
+<!--##EDIT-->
 
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
 
-##EDIT
+<!--##EDIT-->
 
 First, [install Meteor](https://www.meteor.com/install).
 
@@ -200,8 +201,6 @@ The settings.development.json file contains a field called "loadAssetsFile". It 
 
 #### ESLint
 
-##EDIT
-
 BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
@@ -225,7 +224,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-##EDIT
+<!-- ##EDIT -->
 
 BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
