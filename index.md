@@ -339,7 +339,7 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 
 Milestone 1 was managed using [BowedIn GitHub Project Board M1](https://github.com/bowed-in/bowed-in/projects/1):
 
-<!--Place image here-->
+![](images/M1.png)
 
 <!--
 
