@@ -16,7 +16,7 @@
 
 ## Overview
 
-<!-- ##EDIT -->
+<!--##EDIT -->
 
 Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
 
@@ -55,7 +55,7 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## Deployment
 
-<!--##EDIT-->
+##EDIT
 
 A live deployment of BowFolios is available at [https://bowfolios.org](https://bowfolios.org).
 
@@ -131,19 +131,19 @@ The Filter (Search) page provides the ability to query the database and display 
 
 ## Community Feedback
 
-<!--##EDIT-->
+##EDIT
 
 We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 
-<!--##EDIT-->
+##EDIT
 
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
 
-<!--##EDIT-->
+##EDIT
 
 First, [install Meteor](https://www.meteor.com/install).
 
@@ -224,7 +224,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-<!-- ##EDIT -->
+##EDIT
 
 BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
