@@ -65,7 +65,7 @@ A live deployment of BowFolios is available at [https://bowfolios.org](https://b
 
 <!--##EDIT-->
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section provides a walkthrough of the (current) BowedIn user interface and its capabilities.
 
 ### Landing Page
 
@@ -74,6 +74,18 @@ This section provides a walkthrough of the Bowfolios user interface and its capa
 The landing page is presented to users when they visit the top-level URL to the site.
 
 ![](images/BowedInLandingPage.JPG)
+
+### Sign in and sign up
+
+<!--##EDIT-->
+
+Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
+
+[](images/login.jpeg)
+
+Alternatively, you can select "Sign up" to go to the following page and register as a new user:
+
+[](images/register.jpeg)
 
 ### Home Page
 
@@ -88,19 +100,6 @@ After the account is set up and the UHM student user logs in, you are taken to t
 After the account is set up and the company user logs in, you are taken to the company home page.
 
 ![](images/bowed-in-company-home-page.jpg)
-
-
-### Sign in and sign up
-
-<!--##EDIT-->
-
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
-
-[](images/login.jpeg)
-
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
-
-[](images/register.jpeg)
 
 ### Profile page
 
@@ -336,11 +335,9 @@ The following sections document the development history of BowFolios.
 
 ### Milestone 1: Mockup development
 
-##EDIT
-
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
+Milestone 1 was managed using [BowedIn GitHub Project Board M1](https://github.com/bowed-in/bowed-in/projects/1):
 
 <!--Place image here-->
 
