@@ -96,11 +96,11 @@ After the account is set up and the company user logs in, you are taken to the c
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signin-page.png)
+<!--Place image here-->
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/signup-page.png)
+<!--Place image here-->
 
 ### Profile page
 
@@ -116,7 +116,8 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 Once you are logged in, you can define new projects with the Add Project page:
 
-![](images/add-project-page.png)
+
+<!--Place image here-->
 
 
 ### Filter (Search) page
@@ -351,7 +352,7 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 
 Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
 
-![](images/project-board-1.png)
+<!--Place image here-->
 
 <!--
 
