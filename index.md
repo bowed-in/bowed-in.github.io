@@ -124,6 +124,8 @@ The Filter (Search) page provides the ability to query the database and display 
 
 ![](images/searchpage.jpg)
 
+<!--
+
 ## Community Feedback
 
 ##EDIT
@@ -157,8 +159,6 @@ $ meteor npm run start
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
-
-<!--
 
 ### Application Design
 
