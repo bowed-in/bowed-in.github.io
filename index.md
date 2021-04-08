@@ -352,6 +352,8 @@ Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.
 
 ![](images/project-board-1.png)
 
+<!--
+
 ### Milestone 2: Data model development
 
 ##EDIT
@@ -402,6 +404,8 @@ There are a number of simple enhancements you can make to the system to become b
 * It would be nice for users to only be able to edit the Projects that they have created.  Add an "owner" field to the Project collection, and then only allow a user to edit a Project definition if they own it.
 * The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Meteor Method to "catch" errors of this type and re-throw with a more informative error message.
 * The testcafe acceptance tests only test successful form submissions. Add a test in which you fill out a form incorrectly (perhaps omitting a required field) and then test to ensure that the form does not submit successfully.
+
+-->
 
 ## Team
 
