@@ -116,7 +116,7 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 The Filter (Search) page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified fields, such as Location(s), Skill(s), Interest(s), etc.
 
-![](images/searchpage.jpg)
+![](images/positions-filter.png)
 
 <!--
 
