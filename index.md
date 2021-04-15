@@ -71,20 +71,20 @@ This section provides a walkthrough of the (current) BowedIn user interface and 
 
 <!--##EDIT-->
 
-The landing page is presented to users when they visit the top-level URL to the site.
+The landing page (as of 4/14/21) is presented to users when they visit the top-level URL to the site. Further SemanticUI React components are expected to be implmented by M2.
 
 ![](images/Landing1.png)
 ![](images/Landing2.png)
 
 ### Sign in and sign up
 
-<!--##EDIT-->
+<!--##EDIT ![](images/login.jpeg) -->
 
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
+Click on the "Login or Sign Up Today!" button in the upper right corner of the navbar, then select "Sign in" to go to the Sign In page. You must have been previously registered with the system to use this option. This is the template version of SemanticUI but the footer is now attached to the bottom of the screen. Futher cosmetic adjustments may be made by M2:
 
-![](images/login.jpeg)
+![](images/Signin.png)
 
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
+Alternatively, you can select "Sign up" to go to the following page and register as a new user. This process is under development and will be implmented by the end of M2.
 
 ![](images/register.jpeg)
 
