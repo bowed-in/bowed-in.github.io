@@ -73,7 +73,8 @@ This section provides a walkthrough of the (current) BowedIn user interface and 
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/BowedInLandingPage.JPG)
+![](images/Landing1.png)
+![](images/Landing2.png)
 
 ### Sign in and sign up
 
