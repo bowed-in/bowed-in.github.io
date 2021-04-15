@@ -82,7 +82,7 @@ The landing page (as of 4/14/21) is presented to users when they visit the top-l
 
 Click on the "Login or Sign Up Today!" button in the upper right corner of the navbar, then select "Sign in" to go to the Sign In page. You must have been previously registered with the system to use this option. This is the template version of SemanticUI but the footer is now attached to the bottom of the screen. Futher cosmetic adjustments may be made by M2:
 
-![](images/Signin.png)
+![](images/Sign.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user. This process is under development and will be implmented by the end of M2.
 
