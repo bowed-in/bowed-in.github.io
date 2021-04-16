@@ -1,6 +1,7 @@
 ## Table of contents
 
 * [Overview](#overview)
+* [Deployment](#deployment) 
 * [User Guide](#user-guide)
 * [Team](#team)
 
@@ -53,13 +54,14 @@ It also provides code that implements a variety of useful design concepts, inclu
 * Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
 * Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
 
+-->
+
 ## Deployment
 
 ##EDIT
 
-A live deployment of BowFolios is available at [https://bowfolios.org](https://bowfolios.org).
+A live deployment of BowedIn is available [here](http://104.236.198.142/#/).
 
--->
 
 ## User Guide
 
