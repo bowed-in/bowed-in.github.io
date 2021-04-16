@@ -58,8 +58,6 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## Deployment
 
-##EDIT
-
 A live deployment of BowedIn is available [here](http://104.236.198.142/#/).
 
 
@@ -134,9 +132,9 @@ We are interested in your experience using Bowfolio!  If you would like, please 
 
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
-### Installation
+-->
 
-##EDIT
+### Installation
 
 First, [install Meteor](https://www.meteor.com/install).
 
@@ -158,10 +156,9 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-##EDIT
-
 Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
 
+<!--
 ### Data model
 
 ##EDIT
