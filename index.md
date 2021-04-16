@@ -344,8 +344,6 @@ Milestone 1 was managed using [BowedIn GitHub Project Board M1](https://github.c
 
 ### Milestone 2: Data model development
 
-##EDIT
-
 The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowedIn application.
 
 Milestone 2 was managed using [BowedIn GitHub Project Board M2](https://github.com/bowed-in/bowed-in/projects/2):
