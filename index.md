@@ -138,9 +138,9 @@ This section provides information of interest to Meteor developers wishing to us
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+Second, visit the [BowedIn application github page](https://bowed-in.github.io/), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
-Third, cd into the bowfolios/app directory and install libraries with:
+Third, cd into the bowed-in/app directory and install libraries with:
 
 ```
 $ meteor npm install
@@ -156,7 +156,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+BowedIn is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in BowedIn.
 
 <!--
 ### Data model
