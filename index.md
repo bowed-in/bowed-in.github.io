@@ -110,13 +110,13 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ![](images/user-profile.png)
 
-### Filter (Search) page
+### Search page
 
 <!--##EDIT-->
 
-The Filter (Search) page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified fields, such as Location(s), Skill(s), Interest(s), etc.
+The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc.
 
-![](images/positions-filter.png)
+![](images/searchposting.png)
 
 <!--
 
