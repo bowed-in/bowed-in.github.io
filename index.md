@@ -279,38 +279,37 @@ You can also run the testcafe tests in "continuous integration mode".  This mode
 
 To run the testcafe tests in continuous integration mode, first ensure that BowFolios is not running in any console.
 
-Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
+Then, invoke `meteor npm run testcafe`.  You will not see any windows appear.  When the tests finish, the console should look like this:
 
 ```
-$ meteor npm run testcafe-ci
+$ meteor npm run testcafe
 
-> bowfolios@ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
+
+> meteor-application-template-react@ testcafe-development /Users/justinloi/Documents/GitHub/jmcloi/bowed-in/app
+> testcafe chrome tests/*.testcafe.js
 
  Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
+ - Chrome 90.0.4430.85 / macOS 10.15.7
 
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up (unstable)
+ BowedIn localhost test with default db
+ ✓ Test that landing page shows up
  ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
+ ✓ Test the View Profile Page
+ ✓ Test the View Admin Profile Page
+ ✓ Test that student home page is reachable
+ ✓ Test that company home page is reachable
 
 
- 9 passed (56s)
+ 6 passed (1m 12s)
+
 
 $
 ```
-
+<!--
 All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
 
 The only impact of quarantine mode should be that the first test is marked as "unstable".
-
+-->
 ## From mockup to production
 
 Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
@@ -337,7 +336,7 @@ The workflow definition file is quite simple and is located at
 
 ## Development History
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
+The development process for BowedIn conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. 
 
 * Development consists of a sequence of Milestones.
 * Each Milestone is specified as a set of tasks.
@@ -347,16 +346,13 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 * When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
-The following sections document the development history of BowFolios.
+The following sections document the development history of BowedIn.
 
 ### Milestone 1: Mockup development
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
 Milestone 1 was managed using [BowedIn GitHub Project Board M1](https://github.com/bowed-in/bowed-in/projects/1):
-
-![](images/M1.png)
-
 
 ### Milestone 2: Data model development
 
