@@ -58,7 +58,7 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## Deployment
 
-A live deployment of BowedIn is available [here](http://104.236.198.142/#/).
+A live deployment of BowedIn is available [here](https://bowedin.com/#/).
 
 
 ## User Guide
@@ -71,7 +71,7 @@ This section provides a walkthrough of the (current) BowedIn user interface and 
 
 <!--##EDIT-->
 
-The landing page (as of 4/14/21) is presented to users when they visit the top-level URL to the site. Further SemanticUI React components are expected to be implmented by M2.
+The landing page (as of 4/27/21) is presented to users when they visit the top-level URL to the site. Further SemanticUI React components are expected to be implmented by M3.
 
 ![](images/Landing1.png)
 ![](images/Landing2.png)
@@ -80,13 +80,23 @@ The landing page (as of 4/14/21) is presented to users when they visit the top-l
 
 <!--##EDIT ![](images/login.jpeg) -->
 
-Click on the "Login or Sign Up Today!" button in the upper right corner of the navbar, then select "Sign in" to go to the Sign In page. You must have been previously registered with the system to use this option. This is the template version of SemanticUI but the footer is now attached to the bottom of the screen. Futher cosmetic adjustments may be made by M2:
+Click on the "Login or Sign Up Today!" button in the upper right corner of the navbar, then select "Sign in" to go to the Sign In page. You must have been previously registered with the system to use this option. 
 
 ![](images/Sign.png)
 
-Alternatively, you can select "Sign up" to go to the following page and register as a new user. This process is under development and will be implmented by the end of M2.
+Alternatively, you can select "Sign up" to go to the following page and register as a new user. BowedIn allows different types of users: student and company. These differences manifest in what the user (student or company) is able to see and use within the application. Below is the signup process.
 
-![](images/register.jpeg)
+First, after pressing on 'Uh oh, I don't have an account!' or by pressing the 'Login or Sign Up Today!' dropdown menu and indicating 'Sign Up', the user is directly transferred to the preliminary sign up page. This page, pictured below, creates a Meteor account assigned to that user and depending on their choice of 'Student' or 'Company' in the drop down an additional form will be rendered that collects additional information about the user.
+
+![](images/preliminarySignup.png)
+
+After the preliminary signup page is completed, one of two pages will be rendered: an additional form collecting information about student users:
+
+![](images/studentSignup.png)
+
+Or a form that collects more information about company users.
+
+![](images/companySignup.png)
 
 ### Home Page
 
