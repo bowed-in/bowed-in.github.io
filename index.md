@@ -123,6 +123,10 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ![](images/user-profile.png)
 
+From your personal profile page, you can click "click here to edit your information". You will then be brought up to a form where you can edit your information:
+
+![](images/edit-user-info.png)
+
 ### Search page
 
 <!--##EDIT-->
@@ -235,42 +239,40 @@ It's significantly easier to do development with ESLint integrated directly into
 
 Currently BowedIn has succesfully tested the rendering of the Signin page for users (student and company), profile page (student and company), and home page (student and company). We are currently experiencing technical difficulties with the tests for the signup page and process. These adjustments will be fixed by the M3 deadline. Below is an example provided by Dr. Johnson (professor at the University of Hawaii of Manoa) detailing what the BowedIn team process will aim to emulate.
 
-BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+BowedIn uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
-The BowFolios end-to-end test code employs the page object model design pattern.  In the [bowfolios tests/ directory](https://github.com/bowfolios/bowfolios/tree/master/app/tests), the file [tests.testcafe.js](https://github.com/bowfolios/bowfolios/blob/master/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
+The BowedIn end-to-end test code employs the page object model design pattern.  In the [bowedin tests/ directory](https://github.com/bowfolios/bowfolios/tree/master/app/tests), the file [tests.testcafe.js](https://github.com/bowfolios/bowfolios/blob/master/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
 
-To run the end-to-end tests in development mode, you must first start up a BowFolios instance by invoking `meteor npm run start` in one console window.
+To run the end-to-end tests in development mode, you must first start up a BowedIn instance by invoking `meteor npm run start` in one console window.
 
 Then, in another console window, start up the end-to-end tests with:
 
 ```
-meteor npm run testcafe
+meteor npm run testcafe-development
 ```
 
 You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
 
 ```
-$ meteor npm run testcafe
+$ meteor npm run testcafe-development
 
-> bowfolios@ testcafe /Users/philipjohnson/github/bowfolios/bowfolios/app
+
+> meteor-application-template-react@ testcafe-development /Users/justinloi/Documents/GitHub/jmcloi/bowed-in/app
 > testcafe chrome tests/*.testcafe.js
 
  Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
+ - Chrome 90.0.4430.85 / macOS 10.15.7
 
- Bowfolios localhost test with default db
+ BowedIn localhost test with default db
  ✓ Test that landing page shows up
  ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
+ ✓ Test the View Profile Page
+ ✓ Test the View Admin Profile Page
+ ✓ Test that student home page is reachable
+ ✓ Test that company home page is reachable
 
 
- 9 passed (40s)
+ 6 passed (1m 12s)
 
  $
 ```
