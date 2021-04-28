@@ -229,7 +229,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-##EDIT
+Currently BowedIn has succesfully tested the rendering of the Signin page for users (student and company), profile page (student and company), and home page (student and company). We are currently experiencing technical difficulties with the tests for the signup page and process. These adjustments will be fixed by the M3 deadline. Below is an example provided by Dr. Johnson (professor at the University of Hawaii of Manoa) detailing what the BowedIn team process will aim to emulate.
 
 BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
@@ -333,8 +333,6 @@ The workflow definition file is quite simple and is located at
 
 ## Development History
 
-##EDIT
-
 The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
 * Development consists of a sequence of Milestones.
@@ -362,21 +360,13 @@ The goal of Milestone 2 was to implement the data model: the underlying set of M
 
 Milestone 2 was managed using [BowedIn GitHub Project Board M2](https://github.com/bowed-in/bowed-in/projects/2):
 
-<!--
-![](images/project-board-2.png)
-
 ## Milestone 3: Final touches
-
-##EDIT
 
 The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
-Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.com/bowfolios/bowfolios/projects/3):
+Milestone 3 was managed using [BowedIn GitHub Project Board M3](https://github.com/bowed-in/bowed-in/projects/3):
 
-![](images/project-board-3.png)
-
-As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
-
+<!--
 ## Walkthrough videos
 
 ##EDIT
