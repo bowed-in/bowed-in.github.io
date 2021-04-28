@@ -73,8 +73,8 @@ This section provides a walkthrough of the (current) BowedIn user interface and 
 
 The landing page (as of 4/27/21) is presented to users when they visit the top-level URL to the site. Further SemanticUI React components are expected to be implmented by M3.
 
-![](images/Landing1.png)
-![](images/Landing2.png)
+![](images/landing1.png)
+![](images/landing2.png)
 
 ### Sign in and sign up
 
