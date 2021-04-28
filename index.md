@@ -3,6 +3,9 @@
 * [Overview](#overview)
 * [Deployment](#deployment) 
 * [User Guide](#user-guide)
+* [Developer Guide](#developer-guide)
+* [Initialization](#initialization)
+* [Development History](#development-history)
 * [Team](#team)
 
 <!--
@@ -174,6 +177,7 @@ BowedIn relies on the use of two collections: UsersColection and PositionsCollec
 Additionally, the PositionsCollection allows input into the positions database. The 'owner' of a position entry will be limited to comapny users. The 'owner' field will serve as the foreign key and will be user to retrieve data in the collection associated with a certain 'company' user.
 
 ![](images/dataModel.png)
+
 <!--
 ##EDIT
 
