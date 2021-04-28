@@ -136,13 +136,11 @@ The Search page provides the ability to query the database and display the resul
 
 We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
 
+-->
+
 ## Developer Guide
 
-##EDIT
-
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
-
--->
 
 ### Installation
 
