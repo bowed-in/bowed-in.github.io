@@ -146,7 +146,7 @@ This section provides information of interest to Meteor developers wishing to us
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, visit the [BowedIn application github page](https://bowed-in.github.io/), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+Second, visit the [BowedIn application github page](https://bowed-in.github.io/), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer. Now you are able to edit the BowedIn code within your very own copy of BowedIn.
 
 Third, cd into the bowed-in/app directory and install libraries with:
 
@@ -166,7 +166,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 BowedIn is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in BowedIn.
 
-<!--
+
 ### Data model
 
 ##EDIT
@@ -186,16 +186,15 @@ The fields in boldface (Email for Profiles, and Name for Projects and Interests)
 
 ## Initialization
 
-##EDIT
-
 The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
 
 This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
 
 The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
 
-
+<!--
 ### Quality Assurance
+-->
 
 #### ESLint
 
@@ -302,8 +301,6 @@ The only impact of quarantine mode should be that the first test is marked as "u
 
 ## From mockup to production
 
-##EDIT
-
 Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
 
 * Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
@@ -312,6 +309,7 @@ Bowfolios is meant to illustrate the use of Meteor for developing an initial pro
 
 (Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
 
+<!--
 ## Continuous Integration
 
 ##EDIT
