@@ -169,6 +169,12 @@ BowedIn is based upon [meteor-application-template-react](https://ics-software-e
 
 ### Data model
 
+BowedIn relies on the use of two collections: UsersColection and PositionsCollection. As noted above, BowedIn allows multiple roles: student and company. In order to acheive this separation, we have utilized the UsersCollection to store data regarding student and company user data.
+
+Additionally, the PositionsCollection allows input into the positions database. The 'owner' of a position entry will be limited to comapny users. The 'owner' field will serve as the foreign key and will be user to retrieve data in the collection associated with a certain 'company' user.
+
+
+<!--
 ##EDIT
 
 As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
@@ -183,22 +189,24 @@ Bowfolios implements Design choice #2 to provide pair-wise relations between all
 
 The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
 
+-->
+
 
 ## Initialization
 
-The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
+The [config](https://github.com/bowed-in/bowed-in/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowed-in/bowed-in/blob/master/config/settings.development.json).
 
-This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
-
-The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
+This file contains default definitions for Users and Positions.
 
 <!--
+The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
+
 ### Quality Assurance
 -->
 
 #### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+BowedIn includes a [.eslintrc](https://github.com/bowed-in/bowed-in/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -209,7 +217,7 @@ Here is sample output indicating that no ESLint errors were detected:
 ```
 $ meteor npm run lint
 
-> bowfolios@ lint /Users/philipjohnson/github/bowfolios/bowfolios/app
+> bowed-in@ lint /Users/philipjohnson/github/bowed-in/bowed-in/app
 > eslint --quiet --ext .jsx --ext .js ./imports ./tests
 
 $
@@ -321,6 +329,8 @@ BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/
 The workflow definition file is quite simple and is located at
 [.github/workflows/ci.yml](https://github.com/bowfolios/bowfolios/blob/master/.github/workflows/ci.yml).
 
+-->
+
 ## Development History
 
 ##EDIT
@@ -336,8 +346,6 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
 The following sections document the development history of BowFolios.
-
--->
 
 ### Milestone 1: Mockup development
 
