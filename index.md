@@ -311,7 +311,7 @@ $
 All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
 
 The only impact of quarantine mode should be that the first test is marked as "unstable".
--->
+
 ## From mockup to production
 
 Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
@@ -322,7 +322,6 @@ Bowfolios is meant to illustrate the use of Meteor for developing an initial pro
 
 (Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
 
-<!--
 ## Continuous Integration
 
 ##EDIT
