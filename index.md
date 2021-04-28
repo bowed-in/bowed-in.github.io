@@ -279,7 +279,7 @@ $ meteor npm run testcafe-development
 
 You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
 
-To run the testcafe tests in continuous integration mode, first ensure that BowFolios is not running in any console.
+To run the testcafe tests in continuous integration mode, first ensure that BowedIn is not running in any console.
 
 Then, invoke `meteor npm run testcafe`.  You will not see any windows appear.  When the tests finish, the console should look like this:
 
