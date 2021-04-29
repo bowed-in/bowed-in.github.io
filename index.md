@@ -245,6 +245,10 @@ Currently BowedIn has succesfully tested the rendering of the Signin page for us
 
 BowedIn uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
+## Test Badge
+
+![ci-badge](https://github.com/bowed-in/bowed-in/workflows/bowed-in/badge.svg)
+
 The BowedIn end-to-end test code employs the page object model design pattern.  In the [bowedin tests/ directory](https://github.com/bowed-in/bowed-in/tree/master/app/tests), the file [tests.testcafe.js](https://github.com/bowed-in/bowed-in/blob/master/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
 
 To run the end-to-end tests in development mode, you must first start up a BowedIn instance by invoking `meteor npm run start` in one console window.
