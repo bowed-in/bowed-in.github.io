@@ -59,6 +59,10 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 -->
 
+## Testing
+
+![ci-badge](https://github.com/bowed-in/bowed-in/workflows/bowed-in/badge.svg)
+
 ## Deployment
 
 A live deployment of BowedIn is available [here](https://bowedin.com/#/).
