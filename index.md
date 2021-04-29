@@ -305,15 +305,22 @@ $ meteor npm run testcafe
  - Chrome 90.0.4430.85 / macOS 10.15.7
 
  BowedIn localhost test with default db
- ✓ Test that landing page shows up
- ✓ Test that signin and signout work
+ ✓ Test that landing page shows up (unstable)
+ ✓ Test that student signin and signout work
+ ✓ Test that company signin and signout work
+ ✓ Test that admin signin and signout work
+ ✓ Test that student signup process works, then logout works
+ ✓ Test that company signup process works, then logout works
+ ✓ Test that edit student user information process works then logout
+ ✓ Test that edit company user information process works then logout
  ✓ Test the View Profile Page
  ✓ Test the View Admin Profile Page
  ✓ Test that student home page is reachable
  ✓ Test that company home page is reachable
+ ✓ Test the search posting page
 
 
- 6 passed (1m 12s)
+ 13 passed (10m 23s)
 
 
 $
