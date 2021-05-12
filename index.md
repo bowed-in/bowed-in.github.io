@@ -143,7 +143,7 @@ The Search page provides the ability to query the database and display the resul
 ## Community Feedback
 
 **Anonymous User 1 – Feedback**<br/>
-*The indeed picture looks like it came out of nowhere. I think the background could also be improved. The messages also don't show who they came from. However, I like the idea and the interface is simple and intuitive. *
+*The indeed picture looks like it came out of nowhere. I think the background could also be improved. The messages also don't show who they came from. However, I like the idea and the interface is simple and intuitive.*
 
 ## Developer Guide
 
