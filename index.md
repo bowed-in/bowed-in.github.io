@@ -160,6 +160,12 @@ The Recruit Students page can only be accessed by a user with a company role and
 **Anonymous User 3 – Feedback**<br/>
 *You should change interests to skills on the registration form to better reflect the profile card. The NavBar is confusing. I wish you had a home page or about us page that describes what the website does after you sign up/in. I don't know if the BowedIn link at the top is supposed to direct me to my profile page or my home page, and it almost looks like it's neither. Also what is the message button supposed to do?*
 
+**Anonymous User 4 – Feedback**<br/>
+*Some of the buttons don't actually do anything. The message button when you log in will not message anyone, but when you type something then press submit, it will work. The home pages look nice though. I also like the moving footer.*
+
+**Anonymous User 5 – Feedback**<br/>
+*I like the green and all the background visuals. It gives it a nice feel to it. However, most of the buttons don't work and some of the pages feel empty. The signin and register pages could use something to make it feel less empty. *
+
 
 ## Developer Guide
 
