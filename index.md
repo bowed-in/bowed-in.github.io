@@ -139,15 +139,11 @@ The Search page provides the ability to query the database and display the resul
 ![](images/recruit-students.png)
 ![](images/new-position.png)
 
-<!--
 
 ## Community Feedback
 
-##EDIT
-
-We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
-
--->
+**Anonymous User 1 – Feedback**<br/>
+*The indeed picture looks like it came out of nowhere. I think the background could also be improved. The messages also don't show who they came from. However, I like the idea and the interface is simple and intuitive. *
 
 ## Developer Guide
 
