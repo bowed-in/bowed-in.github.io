@@ -136,6 +136,9 @@ The Search page provides the ability to query the database and display the resul
 
 ![](images/searchposting.png)
 
+![](images/recruit-students.png)
+![](images/new-position.png)
+
 <!--
 
 ## Community Feedback
