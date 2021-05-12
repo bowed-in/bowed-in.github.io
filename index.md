@@ -136,7 +136,16 @@ The Search page provides the ability to query the database and display the resul
 
 ![](images/searchposting.png)
 
+### Recruit page
+
+The Recruit page provides the ability to query the database and displays 
+
 ![](images/recruit-students.png)
+
+### Add Position page
+
+
+
 ![](images/new-position.png)
 
 
@@ -144,6 +153,13 @@ The Search page provides the ability to query the database and display the resul
 
 **Anonymous User 1 – Feedback**<br/>
 *The indeed picture looks like it came out of nowhere. I think the background could also be improved. The messages also don't show who they came from. However, I like the idea and the interface is simple and intuitive.*
+
+**Anonymous User 2 – Feedback**<br/>
+*I like how the footer is moving with the screen, email links to the mail application, presentation is very organized. I think you can improve on messages box (since it's just a white box maybe add a text saying no message), not sure about the purpose of message button.*
+
+**Anonymous User 3 – Feedback**<br/>
+*You should change interests to skills on the registration form to better reflect the profile card. The NavBar is confusing. I wish you had a home page or about us page that describes what the website does after you sign up/in. I don't know if the BowedIn link at the top is supposed to direct me to my profile page or my home page, and it almost looks like it's neither. Also what is the message button supposed to do?*
+
 
 ## Developer Guide
 
