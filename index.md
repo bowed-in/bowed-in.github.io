@@ -109,11 +109,12 @@ BowedIn is has two different home pages depending on the role: Student and Compa
 
 After the account is set up and the UHM student user logs in, you are taken to the student home page.
 
-![](images/user-home-page.png)
+![](images/student-home-page.png)
 
 After the account is set up and the company user logs in, you are taken to the company home page.
 
 ![](images/company-home-page.png)
+
 
 ### Profile page
 
