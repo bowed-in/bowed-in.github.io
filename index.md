@@ -128,6 +128,13 @@ From your personal profile page, you can click "click here to edit your informat
 
 ![](images/edit-user-info.png)
 
+
+### Add Position page
+
+The Add Position page can only be accessed by a user with the company role and renders a form to add create a new position into the database. 
+
+![](images/new-position.png)
+
 ### Search page
 
 <!--##EDIT-->
@@ -138,16 +145,9 @@ The Search page provides the ability to query the database and display the resul
 
 ### Recruit page
 
-The Recruit page provides the ability to query the database and displays 
+The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.   
 
 ![](images/recruit-students.png)
-
-### Add Position page
-
-
-
-![](images/new-position.png)
-
 
 ## Community Feedback
 
