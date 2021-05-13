@@ -61,11 +61,11 @@ First, after pressing on 'Uh oh, I don't have an account!' or by pressing the 'L
 
 After the preliminary signup page is completed, one of two pages will be rendered: an additional form collecting information about student users:
 
-![](images/studentSignup.png)
+![](images/student-reg.png)
 
 Or a form that collects more information about company users.
 
-![](images/companySignup.png)
+![](images/company-reg.png)
 
 ### Home Page
 
@@ -73,11 +73,11 @@ BowedIn is has two different home pages depending on the role: Student and Compa
 
 After the account is set up and the UHM student user logs in, you are taken to the student home page.
 
-![](images/student-home-page.png)
+![](images/user-home.png)
 
 After the account is set up and the company user logs in, you are taken to the company home page.
 
-![](images/company-home-page.png)
+![](images/company-home.png)
 
 
 ### Profile page
@@ -107,7 +107,19 @@ The Search page provides the ability to query the database and display the resul
 
 The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.   
 
-![](images/recruit-students.png)
+![](images/admin-home.png)
+
+### Recruit page
+
+The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.
+
+![](images/admin-profile.png)
+
+### Recruit page
+
+The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.
+
+![](images/admin-position.png)
 
 ### Additional Functionality: Messaging between students and companies
 
