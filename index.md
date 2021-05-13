@@ -99,13 +99,13 @@ The Add Position page can only be accessed by a user with the company role and r
 
 ### Search page
 
-The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc.
+The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc. Notice that on each listing there is a message field. This will allow student users to send a message to the owner of the listing (i.e the company who published the position). BowedIn.com will also send a copy of the student's message as an email to the email associated with the company user's account. See the Additional Functionality section below for a preview of a sample email.
 
 ![](images/searchposting.png)
 
 ### Recruit page
 
-The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.   
+The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card. Notice that on each listing there is a message field. This will allow company users to send a message to the listed student. BowedIn.com will also send a copy of the company's message as an email to the email associated with the student's account. See the Additional Functionality section below for a preview of a sample email.
 
 ![](images/admin-home.png)
 
@@ -121,9 +121,17 @@ The Recruit Students page can only be accessed by a user with a company role and
 
 ![](images/admin-position.png)
 
+### About Us Page
+
+When the user clicks on the 'About the BowedIn Team' button in the footer the follwoing page displays links to the BowedIn team members' individual professional portfolios. Additionally, if the user clicks on the 'About BowedIn' button, the user is redirected to the BowedIn GitHubIO page.
+
+![](images/aboutUs.png)
+
 ### Additional Functionality: Messaging between students and companies
 
-BowedIn offers the oppurtunity for students and companies to message each other. A user can send a date and time stamped message. The recipient can review the message from their home page. Additionally, the recipient will receive a copy of the message from the email account: 'bowedinconnect@gmail.com'.
+BowedIn offers the oppurtunity for students and companies to message each other. A user can send a date and time stamped message. The recipient can review the message from their home page. Additionally, the recipient will receive a copy of the message from the email account: 'bowedinconnect@gmail.com'. Pictured below is an email sent from BowedIn.com to a sample user with the message 'test message 3'.
+
+![](images/email.png)
 
 ## Community Feedback
 
@@ -192,7 +200,7 @@ BowedIn relies on the use of two collections: UsersColection and PositionsCollec
 
 Additionally, the PositionsCollection allows input into the positions database. The 'owner' of a position entry will be limited to comapny users. The 'owner' field will serve as the foreign key and will be user to retrieve data in the collection associated with a certain 'company' user.
 
-![](images/dataModel.png)
+![](images/dataModelFinal.png)
 
 ## Initialization
 
@@ -255,6 +263,7 @@ $ meteor npm run testcafe-development
 
  BowedIn localhost test with default db
  ✓ Test that landing page shows up (unstable)
+ ✓ Test that landing page shows up
  ✓ Test that student signin and signout work
  ✓ Test that company signin and signout work
  ✓ Test that admin signin and signout work
@@ -263,13 +272,21 @@ $ meteor npm run testcafe-development
  ✓ Test that edit student user information process works then logout
  ✓ Test that edit company user information process works then logout
  ✓ Test the View Profile Page
- ✓ Test the View Admin Profile Page
+ ✓ Test the View Admin Profile Page from Nav Bar
  ✓ Test that student home page is reachable
  ✓ Test that company home page is reachable
+ ✓ Test that admin home page is reachable
+ ✓ Test the List Users from Admin Home Page
+ ✓ Test the List Positions from Admin Home Page
  ✓ Test the search posting page
+ ✓ Test that the user gets redirected to the BowedIn github.io page when they click About BowedIn in the footer
+ ✓ Test that the user gets redirected to the BowedIn About Us page when they click About the BowedIn Team in the footer
+ ✓ Test that the List Student page shows up
+ ✓ Test messaging from student to company and that the delete button works
+ ✓ Test messaging from company to student and that the delete button works
 
 
- 13 passed (10m 23s)
+ 21 passed (23m 46s)
 
  $
 ```
@@ -292,6 +309,7 @@ $ meteor npm run testcafe
 
  BowedIn localhost test with default db
  ✓ Test that landing page shows up (unstable)
+ ✓ Test that landing page shows up
  ✓ Test that student signin and signout work
  ✓ Test that company signin and signout work
  ✓ Test that admin signin and signout work
@@ -300,13 +318,21 @@ $ meteor npm run testcafe
  ✓ Test that edit student user information process works then logout
  ✓ Test that edit company user information process works then logout
  ✓ Test the View Profile Page
- ✓ Test the View Admin Profile Page
+ ✓ Test the View Admin Profile Page from Nav Bar
  ✓ Test that student home page is reachable
  ✓ Test that company home page is reachable
+ ✓ Test that admin home page is reachable
+ ✓ Test the List Users from Admin Home Page
+ ✓ Test the List Positions from Admin Home Page
  ✓ Test the search posting page
+ ✓ Test that the user gets redirected to the BowedIn github.io page when they click About BowedIn in the footer
+ ✓ Test that the user gets redirected to the BowedIn About Us page when they click About the BowedIn Team in the footer
+ ✓ Test that the List Student page shows up
+ ✓ Test messaging from student to company and that the delete button works
+ ✓ Test messaging from company to student and that the delete button works
 
 
- 13 passed (10m 23s)
+ 21 passed (23m 46s)
 
 
 $
