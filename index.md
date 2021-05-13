@@ -69,7 +69,7 @@ Or a form that collects more information about company users.
 
 ### Home Page
 
-BowedIn is has two different home pages depending on the role: Student and Company.
+BowedIn is has three different home pages depending on the role: Student, Company, and Admin.
 
 After the account is set up and the UHM student user logs in, you are taken to the student home page.
 
@@ -79,6 +79,9 @@ After the account is set up and the company user logs in, you are taken to the c
 
 ![](images/company-home.png)
 
+Using the preassigned credentials, after the admin user logs in, you are taken to the admin home page. 
+
+![](images/admin-home.png)
 
 ### Profile page
 
@@ -105,19 +108,13 @@ The Search page provides the ability to query the database and display the resul
 
 ### Recruit page
 
-The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card. Notice that on each listing there is a message field. This will allow company users to send a message to the listed student. BowedIn.com will also send a copy of the company's message as an email to the email associated with the student's account. See the Additional Functionality section below for a preview of a sample email.
-
-![](images/admin-home.png)
-
-### Recruit page
-
-The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.
+From the admin home page, the admin user can either go to the navigation bar's "Profile Admin" or press the "List Users" on the home page to be redirected to a page that lists all users in the database. 
 
 ![](images/admin-profile.png)
 
 ### Recruit page
 
-The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card.
+From the admin home page, the admin user can either go to the navigation bar's "List Positions Admin" or press the "List Positions" on the home page to be redirected to a page that lists all positions in the database. 
 
 ![](images/admin-position.png)
 
