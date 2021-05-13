@@ -99,13 +99,13 @@ The Add Position page can only be accessed by a user with the company role and r
 
 ### Search page
 
-The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc. Notice that on each listing there is a message field. This will allow student users to send a message to the owner of the listing (i.e the company who published the position). BowedIn.com will also send a copy of the student's message as an email to the email associated with the company user's account. See the [Additional Functionality] section below(###Additional Functionality: Messaging between students and companies) for a preview of a sample email.
+The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc. Notice that on each listing there is a message field. This will allow student users to send a message to the owner of the listing (i.e the company who published the position). BowedIn.com will also send a copy of the student's message as an email to the email associated with the company user's account. See the [Additional Functionality](###Additional Functionality: Messaging between students and companies) section below for a preview of a sample email.
 
 ![](images/searchposting.png)
 
 ### Recruit page
 
-The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card. Notice that on each listing there is a message field. This will allow company users to send a message to the listed student. BowedIn.com will also send a copy of the company's message as an email to the email associated with the student's account. See the [Additional Functionality] section below(###Additional Functionality: Messaging between students and companies) for a preview of a sample email.
+The Recruit Students page can only be accessed by a user with a company role and renders all of the users with a student role. The company user is able to add the card onto their home page by pressing the add button. In addition, the company user is able to write a message to the student by filling the textbox at the bottom of the card. Notice that on each listing there is a message field. This will allow company users to send a message to the listed student. BowedIn.com will also send a copy of the company's message as an email to the email associated with the student's account. See the [Additional Functionality](###Additional Functionality: Messaging between students and companies) section below for a preview of a sample email.
 
 ![](images/recruit-students.png)
 
