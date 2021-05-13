@@ -164,7 +164,7 @@ The Recruit Students page can only be accessed by a user with a company role and
 *Some of the buttons don't actually do anything. The message button when you log in will not message anyone, but when you type something then press submit, it will work. The home pages look nice though. I also like the moving footer.*
 
 **Anonymous User 5 – Feedback**<br/>
-*I like the green and all the background visuals. It gives it a nice feel to it. However, most of the buttons don't work and some of the pages feel empty. The signin and register pages could use something to make it feel less empty. *
+*I like the green and all the background visuals. It gives it a nice feel to it. However, most of the buttons don't work and some of the pages feel empty. The signin and register pages could use something to make it feel less empty.*
 
 
 ## Developer Guide
