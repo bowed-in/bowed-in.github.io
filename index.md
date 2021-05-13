@@ -108,11 +108,17 @@ The Search page provides the ability to query the database and display the resul
 
 ### Recruit page
 
+The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc. Notice that on each listing there is a message field. This will allow student users to send a message to the owner of the listing (i.e the company who published the position). BowedIn.com will also send a copy of the student's message as an email to the email associated with the company user's account. See the Additional Functionality section below for a preview of a sample email.
+
+![](images/recruit-student.png)
+
+### Admin Profiles page
+
 From the admin home page, the admin user can either go to the navigation bar's "Profile Admin" or press the "List Users" on the home page to be redirected to a page that lists all users in the database. 
 
 ![](images/admin-profile.png)
 
-### Recruit page
+### Admin Positions page
 
 From the admin home page, the admin user can either go to the navigation bar's "List Positions Admin" or press the "List Positions" on the home page to be redirected to a page that lists all positions in the database. 
 
