@@ -7,22 +7,19 @@
 * [Initialization](#initialization)
 * [Development History](#development-history)
 * [Team](#team)
-
-<!--
 * [Deployment](#deployment) 
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
+<!--
 * [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements) 
 -->
 
 ## Overview
 
-<!--##EDIT -->
-
-Bow(ed)In is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
+BowedIn is an application that helps connect UH computer science students to desired local software engineering and tech companies and employers. On this app, they will be able to find internships, volunteering, and many other job opportunities that suits their specialty and goals, including:
 
 * Software engineering
 * Game/Web Design
@@ -74,7 +71,7 @@ This section provides a walkthrough of the (current) BowedIn user interface and 
 
 <!--##EDIT-->
 
-The landing page (as of 4/27/21) is presented to users when they visit the top-level URL to the site. Further SemanticUI React components are expected to be implmented by M3.
+The landing page is presented to users when they visit the top-level URL to the site.
 
 ![](images/landing1.png)
 ![](images/landing2.png)
@@ -149,13 +146,21 @@ The Recruit Students page can only be accessed by a user with a company role and
 
 ![](images/recruit-students.png)
 
+### Additional Functionality: Messaging between students and companies
+
+BowedIn offers the oppurtunity for students and companies to message each other. A user can send a date and time stamped message. The recipient can review the message from their home page. Additionally, the recipient will receive a copy of the message from the email account: 'bowedinconnect@gmail.com'.
+
 ## Community Feedback
 
 **Anonymous User 1 – Feedback**<br/>
 *The indeed picture looks like it came out of nowhere. I think the background could also be improved. The messages also don't show who they came from. However, I like the idea and the interface is simple and intuitive.*
 
+As of 5/12 the messages now include the Message from: ___ field to indicate who sent the received message.
+
 **Anonymous User 2 – Feedback**<br/>
 *I like how the footer is moving with the screen, email links to the mail application, presentation is very organized. I think you can improve on messages box (since it's just a white box maybe add a text saying no message), not sure about the purpose of message button.*
+
+As of 5/12 the student and company home pages now present a message 'No new messages' if the user does not have any messages and there is no longer a plain white box on the users home page.
 
 **Anonymous User 3 – Feedback**<br/>
 *You should change interests to skills on the registration form to better reflect the profile card. The NavBar is confusing. I wish you had a home page or about us page that describes what the website does after you sign up/in. I don't know if the BowedIn link at the top is supposed to direct me to my profile page or my home page, and it almost looks like it's neither. Also what is the message button supposed to do?*
@@ -165,6 +170,9 @@ The Recruit Students page can only be accessed by a user with a company role and
 
 **Anonymous User 5 – Feedback**<br/>
 *I like the green and all the background visuals. It gives it a nice feel to it. However, most of the buttons don't work and some of the pages feel empty. The signin and register pages could use something to make it feel less empty.*
+
+**Anonymous User 6 - Feedback**<br/>
+*The Landing page looks nice! Very clean and modern UI. I enjoyed the animated buttons - very cool! Overall the app is very easy to use. It is however not very intuitive to use. I found myself confused and not certain what the exact point of the app was. An introduction page could be useful. Additionally if I were a student, I think it would be cool to have more control over the search filter on the search page. Overall great job on the app!*
 
 
 ## Developer Guide
@@ -259,9 +267,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-Currently BowedIn has succesfully tested the rendering of the Signin page for users (student and company), profile page (student and company), and home page (student and company). We are currently experiencing technical difficulties with the tests for the signup page and process. These adjustments will be fixed by the M3 deadline. Below is an example provided by Dr. Johnson (professor at the University of Hawaii of Manoa) detailing what the BowedIn team process will aim to emulate.
-
-BowedIn uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+Currently BowedIn has succesfully tested all pages within the app and uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
 ## Test Badge
 
@@ -361,19 +367,19 @@ Bowfolios is meant to illustrate the use of Meteor for developing an initial pro
 * Removal of the insecure package, and the addition of Meteor Methods to replace client-side DB updates.
 
 (Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
+-->
 
 ## Continuous Integration
 
 ##EDIT
 
-![ci-badge](https://github.com/bowfolios/bowfolios/workflows/ci-bowfolios/badge.svg)
+![ci-badge](https://github.com/bowed-in/bowed-in/workflows/ci-bowed-in/badge.svg)
 
-BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/bowfolios/bowfolios/actions](https://github.com/bowfolios/bowfolios/actions).
+BowedIn uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/bowed-in/bowed-in/actions](https://github.com/bowed-in/bowed-in/actions).
 
 The workflow definition file is quite simple and is located at
-[.github/workflows/ci.yml](https://github.com/bowfolios/bowfolios/blob/master/.github/workflows/ci.yml).
+[.github/workflows/ci.yml](https://github.com/bowed-in/bowed-in/blob/master/.github/workflows/ci.yml).
 
--->
 
 ## Development History
 
