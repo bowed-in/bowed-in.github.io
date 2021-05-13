@@ -99,7 +99,7 @@ The Add Position page can only be accessed by a user with the company role and r
 
 ### Search page
 
-The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc. Notice that on each listing there is a message field. This will allow student users to send a message to the owner of the listing (i.e the company who published the position). BowedIn.com will also send a copy of the student's message as an email to the email associated with the company user's account. See the [Additional Functionality](###Additional Functionality: Messaging between students and companies) section below for a preview of a sample email.
+The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc. Notice that on each listing there is a message field. This will allow student users to send a message to the owner of the listing (i.e the company who published the position). BowedIn.com will also send a copy of the student's message as an email to the email associated with the company user's account. See the [Additional Functionality](#Additional Functionality:-Messaging-between-students-and-companies) section below for a preview of a sample email.
 
 ![](images/searchposting.png)
 
