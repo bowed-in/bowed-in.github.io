@@ -12,10 +12,6 @@
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
-<!--
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements) 
--->
 
 ## Overview
 
@@ -33,29 +29,6 @@ and more! Conversely, employers will be able to recruit students from this app a
 
 Our goal is to work closely as a team and develop a functional and aesthetically pleasing website. 
 
-<!-- 
-(WILL DELETE LATER)
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
-
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
-* [React](https://reactjs.org/) for component-based UI implementation and routing.
-* [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
-
-It also provides code that implements a variety of useful design concepts, including:
-
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
-* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
-* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
-
--->
-
 ## Deployment
 
 A live deployment of BowedIn is available [here](https://bowedin.com/#/).
@@ -63,13 +36,9 @@ A live deployment of BowedIn is available [here](https://bowedin.com/#/).
 
 ## User Guide
 
-<!--##EDIT-->
-
 This section provides a walkthrough of the (current) BowedIn user interface and its capabilities.
 
 ### Landing Page
-
-<!--##EDIT-->
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
@@ -100,8 +69,6 @@ Or a form that collects more information about company users.
 
 ### Home Page
 
-<!--##EDIT-->
-
 BowedIn is has two different home pages depending on the role: Student and Company.
 
 After the account is set up and the UHM student user logs in, you are taken to the student home page.
@@ -114,8 +81,6 @@ After the account is set up and the company user logs in, you are taken to the c
 
 
 ### Profile page
-
-<!--##EDIT-->
 
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 
@@ -133,8 +98,6 @@ The Add Position page can only be accessed by a user with the company role and r
 ![](images/new-position.png)
 
 ### Search page
-
-<!--##EDIT-->
 
 The Search page provides the ability to query the database and display the results in the page. In this case, the query displays all of the postings that match one or more of the specified fields, such as location, skill(s), position name, etc.
 
@@ -155,25 +118,32 @@ BowedIn offers the oppurtunity for students and companies to message each other.
 **Anonymous User 1 – Feedback**<br/>
 *The indeed picture looks like it came out of nowhere. I think the background could also be improved. The messages also don't show who they came from. However, I like the idea and the interface is simple and intuitive.*
 
-As of 5/12 the messages now include the Message from: ___ field to indicate who sent the received message.
+Hello and thank you for your feedback! The BowedIn team is happy to inform you that as of May 12th, 2021, the messages now include a header that indicates who sent the message.
 
 **Anonymous User 2 – Feedback**<br/>
 *I like how the footer is moving with the screen, email links to the mail application, presentation is very organized. I think you can improve on messages box (since it's just a white box maybe add a text saying no message), not sure about the purpose of message button.*
 
-As of 5/12 the student and company home pages now present a message 'No new messages' if the user does not have any messages and there is no longer a plain white box on the users home page.
+Thank you for your feedback! The BowedIn team is happy to inform you that as of May 12th, 2021, the messages will no longer have just a plain white box. If there are no messages, the home pages now present a message 'No new messages' if the user does not have any messages. 
 
 **Anonymous User 3 – Feedback**<br/>
 *You should change interests to skills on the registration form to better reflect the profile card. The NavBar is confusing. I wish you had a home page or about us page that describes what the website does after you sign up/in. I don't know if the BowedIn link at the top is supposed to direct me to my profile page or my home page, and it almost looks like it's neither. Also what is the message button supposed to do?*
 
+Thank you for your thorough feedback! An information page is currently in the works right now and the team is currently brainstorming on how to make the navigation bar and home pages more clear. 
+
 **Anonymous User 4 – Feedback**<br/>
 *Some of the buttons don't actually do anything. The message button when you log in will not message anyone, but when you type something then press submit, it will work. The home pages look nice though. I also like the moving footer.*
+
+Thank you for your feedback and we will fixed it after our next development release. 
 
 **Anonymous User 5 – Feedback**<br/>
 *I like the green and all the background visuals. It gives it a nice feel to it. However, most of the buttons don't work and some of the pages feel empty. The signin and register pages could use something to make it feel less empty.*
 
+We are happy to hear you like the green and mahalo for your feedback! The BowedIn team is currently brainstorming to make the sign-in and register pages look better.  
+
 **Anonymous User 6 - Feedback**<br/>
 *The Landing page looks nice! Very clean and modern UI. I enjoyed the animated buttons - very cool! Overall the app is very easy to use. It is however not very intuitive to use. I found myself confused and not certain what the exact point of the app was. An introduction page could be useful. Additionally if I were a student, I think it would be cool to have more control over the search filter on the search page. Overall great job on the app!*
 
+Thank you for your feedback! An information page is currently in the works right now to make the website as a whole more intuitive. We agree that it would be cool and it would be a great addition for future implementations. 
 
 ## Developer Guide
 
@@ -212,35 +182,11 @@ Additionally, the PositionsCollection allows input into the positions database. 
 
 ![](images/dataModel.png)
 
-<!--
-##EDIT
-
-As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
-
-Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
-
-Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
-
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
-
-![](images/data-model.png)
-
-The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
-
--->
-
-
 ## Initialization
 
 The [config](https://github.com/bowed-in/bowed-in/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowed-in/bowed-in/blob/master/config/settings.development.json).
 
 This file contains default definitions for Users and Positions.
-
-<!--
-The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
-
-### Quality Assurance
--->
 
 #### ESLint
 
@@ -353,25 +299,8 @@ $ meteor npm run testcafe
 
 $
 ```
-<!--
-All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
-
-The only impact of quarantine mode should be that the first test is marked as "unstable".
-
-## From mockup to production
-
-Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
-
-* Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
-* Use of https so that passwords are sent in encrypted format.
-* Removal of the insecure package, and the addition of Meteor Methods to replace client-side DB updates.
-
-(Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
--->
 
 ## Continuous Integration
-
-##EDIT
 
 ![ci-badge](https://github.com/bowed-in/bowed-in/workflows/ci-bowed-in/badge.svg)
 
@@ -412,38 +341,6 @@ Milestone 2 was managed using [BowedIn GitHub Project Board M2](https://github.c
 The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
 Milestone 3 was managed using [BowedIn GitHub Project Board M3](https://github.com/bowed-in/bowed-in/projects/3):
-
-<!--
-## Walkthrough videos
-
-##EDIT
-
-BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
-
-* [BowFolios Part 1: Application Overview (5 min)](https://www.youtube.com/watch?v=gr55MMWD8ok)
-* [BowFolios Part 2: Application Structure and Control Flow (14 min)](https://www.youtube.com/watch?v=LYh06HSYv54)
-* [BowFolios Part 3: Data Model, Data Initialization, Publications and Subscriptions (22 min)](https://www.youtube.com/watch?v=2F2Cw5Ipubc)
-* [BowFolios Part 4: Forms and Meteor Methods (20 min)](https://www.youtube.com/watch?v=5qim9mXpbTM)
-* [BowFolios Part 5: Loading data using Assets (8 min)](https://www.youtube.com/watch?v=NzrTzBPCJPo)
-* [BowFolios Part 6: Design Patterns in BowFolios (22 min)](https://www.youtube.com/watch?v=yP-t44HBCPQ)
-* [BowFolios Part 7: End-to-End testing in BowFolios (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
-
-## Example enhancements
-
-##EDIT
-
-There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
-
-* Display an email icon that links to a mailto: for each user in the profile page.
-* Display the home page for each project as a home icon. Click on it to visit the Project's home page.
-* Add social media accounts to the profile (facebook, twitter, instagram) and show the associated icon in the Profile.
-* The system supports the definition of users with an Admin role, but there are no Admin-specific capabilities. Implement some Admin-specific functions, such as the ability to delete users or add/modify/delete Interests.
-* There is no way to edit or delete a project definition. Add this ability.
-* It would be nice for users to only be able to edit the Projects that they have created.  Add an "owner" field to the Project collection, and then only allow a user to edit a Project definition if they own it.
-* The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Meteor Method to "catch" errors of this type and re-throw with a more informative error message.
-* The testcafe acceptance tests only test successful form submissions. Add a test in which you fill out a form incorrectly (perhaps omitting a required field) and then test to ensure that the form does not submit successfully.
-
--->
 
 ## Team
 
